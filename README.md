@@ -7,9 +7,9 @@
 
  ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``Java``
-- ``JDK 21.0.4``
-- ``Intellij``
+- ``Java`` 
+- ``JDK 21.0.4`` 
+- ``Intellij`` 
 
 ## :hammer: Funcionalidades adicionadas ao projeto
  
