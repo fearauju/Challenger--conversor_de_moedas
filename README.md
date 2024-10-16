@@ -20,11 +20,10 @@
 - `Funcionalidade 2:` Tem a opção de alternar entre as moedas selecionadas para ver o valor da taxa de câmbio em relação a outra moeda.
 
 -  `Funcionalidade 3:` Poderá acessar todo o histórico de conversões feitas durante o uso do programa.
-  
--  `Funcionalidade 4:` Acessar o log de registros das atividades feitas.
--  `Funcionalidade 5:` Atualizar o valor da taxa de câmbio.
--  `Funcionalidade 6:` Visualizar o histórico das conversões feitas.
--  `Funcionalidade 7:` Registrar informações adicionais ao log.
+
+-  `Funcionalidade 4:` Atualizar o valor da taxa de câmbio.
+-  `Funcionalidade 5:` Visualizar o histórico das conversões feitas.
+-  `Funcionalidade 6:` Registrar informações adicionais ao log (opcional).
 
 ## Instruções de uso e alguns detalhes do projeto
 
