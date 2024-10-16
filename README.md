@@ -27,7 +27,7 @@
 
 ## Instruções de uso e alguns detalhes do projeto
 
-- É um projeto para iniciantes em Java, tudo é feito via console, isso significa que terá que ter instalado uma IDE como [Intellij](https://www.jetbrains.com/pt-br/idea/download/?section=windows) (versão Community edition), [Eclipse](https://www.eclipse.org/downloads/) ou outra que suporte a linguagem Java e de preferência a [JDK 21.04](https://www.oracle.com/br/java/technologies/downloads/#jdk23-windows)(LTS) usada no projeto.
+- É um projeto para iniciantes em Java, tudo é feito via console, isso significa que terá que ter instalado uma IDE como [Intellij](https://www.jetbrains.com/pt-br/idea/download/?section=windows) (versão Community edition), [Eclipse](https://www.eclipse.org/downloads/) ou outra que suporte a linguagem Java e de preferência a [JDK 21.04](https://www.oracle.com/br/java/technologies/downloads/#jdk23-windows) (LTS) usada no projeto.
 - É feita uma conexão com a API que fornece dados em tempo real de algumas moedas, neste projeto utilizo apenas 10 moedas. Digite apenas as moedas que aparece disponíveis no console, outras não funcionarão.
 - Ao escolher uma paridade será apresentado outras opções, como atualizar a taxa de câmbio. Terá diferença caso a API retorne alguma alteração, mas não ocorre com frequência.
 - Outra opção é inverter a moeda base, exemplo, se escolheu a paridade USD/BRL, que atualmente no momento que escrevo, cada 1 USD equivale a 5,69 BRL, ao alterar para BRL/USD verá que cada 1 BRL equivale a 0,18 centavos de dólar.
