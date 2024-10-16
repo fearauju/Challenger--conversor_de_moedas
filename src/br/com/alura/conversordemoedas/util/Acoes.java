@@ -4,6 +4,7 @@ public enum Acoes {
     ALTERAR("ALTERAR"),
     ATUALIZAR("ATUALIZAR"),
     SAIR("SAIR"),
+    HISTORICO("HISTORICO"),
     USD("USD"),
     BRL("BRL"),
     EUR("EUR"),

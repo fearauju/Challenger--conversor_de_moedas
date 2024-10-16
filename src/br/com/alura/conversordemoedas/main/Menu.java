@@ -1,9 +1,9 @@
 package br.com.alura.conversordemoedas.main;
 
 import br.com.alura.conversordemoedas.service.ConversaoMoedas;
+import br.com.alura.conversordemoedas.service.GerenciarLog;
 import br.com.alura.conversordemoedas.util.Acoes;
 import br.com.alura.conversordemoedas.util.Validacao;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +32,7 @@ public class Menu {
 
                 leituraDados.skip("(\r\n|[\n\r\u2028\u2029\u0085])?"); // solução para esvaziar o buffer de entrada.
                 opcaoEscolhida = leituraDados.nextLine().toUpperCase().trim();
+                System.out.println();
 
                 if(Validacao.campoVazio(opcaoEscolhida))continue;
 
@@ -54,7 +55,6 @@ public class Menu {
                         }
                     }
                     else {
-                        System.out.println();
                         System.out.println("********************");
                         System.out.println("Escolha uma moeda entre as opções disponíveis");
                         System.out.println("********************");
@@ -80,6 +80,7 @@ public class Menu {
 
                     leituraDados.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
                     opcaoEscolhida = leituraDados.nextLine().toUpperCase().trim();
+                    System.out.println();
 
                     if(Validacao.campoVazio(opcaoEscolhida))continue;
 
@@ -129,6 +130,9 @@ public class Menu {
                 }
 
             } while (continuar);
+
+            GerenciarLog gerenciarLog = new GerenciarLog();
+            gerenciarLog.decisaoAdicionarInfoLog();
 
         }catch (RuntimeException e) {
             System.out.println("********************");
