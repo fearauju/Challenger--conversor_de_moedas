@@ -28,6 +28,3 @@
 Apesar de ser um projeto simples, eu demorei mais tempo do que o esperado. Muitas das coisas aprendidas acabaram sendo colocadas nesse projeto, o que era o intuito, mas muitas foram sendo feitas durante as melhorias implementadas conforme tentava melhorar o código do projeto, principalmente refatoração, organização em pacotes, conceitos de encapsulamento, ArrayList, herança, polimorfismo, um exemplo de polimorfismo ocorre na classe ConversaoMoedas, há dois métodos que são chamados por diferentes instâncias e utilizam diferentes comportamentos baseados no contexto de execução. É feito muita coisa nestes processos, estabelecer conexão com a API através de uma requisição Http, como uso da classe Record para deserializar o arquivo Json para conseguir obter os dados que necessitava em formato String, com o auxílio da biblioteca externa Gson. Foi feito uso do Map para buscar através de chaves todos os dados que queria obter dos tipos especificados.
 Comecei a usar nesse projeto o conceito de Enum, sendo uma forma mais organizada e legível de conseguir manter variáveis importantes, e também algumas ações como pode ser visto no projeto, e que por ventura facilite a manutenção ou alteração de algo de forma muita mais fácil. 
 
-## 📁 Acesso ao projeto
-
-Você pode acessar o site clicando [aqui]().
